@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <br><br><br><br>
+    <title>Aden Keegan — Video Game Composer</title>
+    <meta charset='UTF-8'>
+    <meta name='description' content='Interactive Portfolio'>
+    <meta name='author' content='Aden Keegan'>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+</head>
+<script src='index.js'></script>
+<body>
+    <h1>Aden Keegan</h1>
+    <h2>Video Game Composer</h2>
+    <br><br>
+    <div id='menu'>
+        <button id='aboutbtn' class='menubtn' onclick='toggleAbout()'>About</button>
+        <div id='about' style='display:none'>
+            <p>I am an Australian video game composer, passionate about creating emotive music for games of any genre. A memorable soundtrack makes half of an experience, and it would be my pleasure to write the perfect score for your project.  </p>
+        </div>
+        <button id='listenbtn' class='menubtn' onclick='toggleListen()'>Listen</button>
+        <div id='listen' style='display:none'>
+            <p>Player Adventures - Rain</p>
+            <div id='player'>
+                <button id='toggle' class='toggle'>▶</button>
+                <div id='progress'>
+                    <div id='progressbar'></div>
+                </div>
+            </div>
+        </div>
+        <button id='contactbtn' class='menubtn' onclick='toggleContact()'>Contact</button>
+        <div id='contact' style='display:none'>
+            <p>I'm currently available. Let's get chatting.</p>
+            <h5 id='address' onclick='copyAddress()'>aden.s.keegan@gmail.com</h5>
+            <p id='notice' style='display:none'>Copied!</p>
+        </div>
+    </div>
+    
+    <audio id='audio'>
+        <source src='rain.mp3' type='audio/mpeg'>
+        <p>Download<a href='rain.mp3'>audiofile.mp3</a></p>
+    </audio>
+</body>
+</html>
