@@ -101,7 +101,7 @@ window.onload = function()
     {
         notice.style.display = 'block';
         const el = document.createElement('textarea');
-        el.value = 'aden.s.keegan@gmail.com';
+        el.value = 'placeholder';
         document.body.appendChild(el);
         el.select();
         document.execCommand('copy');
