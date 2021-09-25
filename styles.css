@@ -17,7 +17,7 @@ html
 
 body 
 {
-    background-color: hsl(0, 0%, 11%);
+    background-color: #181A1B;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -79,7 +79,7 @@ p
     border: 3px solid hsl(0, 0%, 90%);
     background-color: Transparent;
     color: hsl(0, 0%, 90%);
-    font-size: 27px;
+    font-size: 28px;
     font-family: 'Regular';
     text-align: center;
     cursor: pointer;
@@ -88,10 +88,18 @@ p
     margin: 12px;
 }
 
+.menubtn:link, .menubtn:visited
+
+{
+    opacity: 1
+}
+
 .menubtn:hover
 {
     opacity: 0.5
 }
+
+.menubtn:
 
 #about
 {

@@ -15,12 +15,10 @@ window.onload = function()
         if (about.style.display == 'none')
         {
             about.style.display = 'block';
-            //aboutbtn.innerText = '✕';
         } 
         else 
         {
             about.style.display = 'none';
-            //aboutbtn.innerText = 'About';
         }
     }
 
@@ -29,12 +27,10 @@ window.onload = function()
         if (listen.style.display == 'none')
         {
             listen.style.display = 'block';
-            //listenbtn.innerText = '✕';
         } 
         else 
         {
             listen.style.display = 'none';
-            //listenbtn.innerText = 'Listen';
         }
     }
 
@@ -43,12 +39,10 @@ window.onload = function()
         if (contact.style.display == 'none')
         {
             contact.style.display = 'block';
-            //contactbtn.innerText = '✕';
         } 
         else 
         {
             contact.style.display = 'none';
-            //contactbtn.innerText = 'Contact';
         }
     }
     
@@ -101,7 +95,7 @@ window.onload = function()
     {
         notice.style.display = 'block';
         const el = document.createElement('textarea');
-        el.value = 'placeholder';
+        el.value = 'enquiries@adenkeegan.com';
         document.body.appendChild(el);
         el.select();
         document.execCommand('copy');

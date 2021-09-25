@@ -2,7 +2,7 @@
 <html>
 <head>
     <br><br><br><br>
-    <title>Aden Keegan — Video Game Composer</title>
+    <title>Aden Keegan — Composition Portfolio</title>
     <meta charset='UTF-8'>
     <meta name='description' content='Interactive Portfolio'>
     <meta name='author' content='Aden Keegan'>
@@ -12,13 +12,10 @@
 <script src='index.js'></script>
 <body>
     <h1>Aden Keegan</h1>
-    <h2>Video Game Composer</h2>
+    <h2>Composition Portfolio</h2>
     <br><br>
     <div id='menu'>
-        <button id='aboutbtn' class='menubtn' onclick='toggleAbout()'>About</button>
-        <div id='about' style='display:none'>
-            <p>I am an Australian freelance video game composer with a passion for creating emotive music for games of any genre. A memorable soundtrack is an essential part of any virtual experience, and I would love to write the perfect score for your project.  </p>
-        </div>
+        
         <button id='listenbtn' class='menubtn' onclick='toggleListen()'>Listen</button>
         <div id='listen' style='display:none'>
             <p>Player Adventures - Rain</p>
@@ -29,11 +26,15 @@
                 </div>
             </div>
         </div>
+        <button id='aboutbtn' class='menubtn' onclick='toggleAbout()'>About</button>
+        <div id='about' style='display:none'>
+            <br><p>I am an Australian freelance composer with a love for creating emotive pieces for games and film. Since discovering music production in 2013, I have collaborated with talented musicians and worked on many passion projects. I'm interested to hear about yours!</p><br>
+        </div>
         <button id='contactbtn' class='menubtn' onclick='toggleContact()'>Contact</button>
         <div id='contact' style='display:none'>
-            <p>My service is currently unavailable. However, feel free to contact via the address below.</p>
-            <h5 id='address' onclick='copyAddress()'>address</h5>
-            <p id='notice' style='display:none'>Address copied!</p>
+            <p>Tell me about your project! You can contact me using the address below - just tap to copy.</p>
+            <h5 id='address' onclick='copyAddress()'>enquiries@adenkeegan.com</h5>
+            <p id='notice' style='display:none'>Copied to clipboard!</p>
         </div>
     </div>
     
