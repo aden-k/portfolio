@@ -1,0 +1,93 @@
+<html>
+   <head>
+      <meta name="google" 
+            content="noarchive, nosnippet">
+         <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Inter">
+         <meta name="viewport" 
+            content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no"/>
+      <style>
+         body{
+            background-color: rgb(26, 26, 26);;
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(230, 230, 230);
+            font-family: 'Inter', serif;
+            text-align: center;
+            margin-top: 90px;
+         }
+         p{
+            font-size: 92%;
+            line-height: 28px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 430px;
+         }
+         .menu ul{ 
+            margin: 0 auto; 
+            padding: 0; 
+            list-style: none; 
+            display: table;
+            text-align: center;
+         }
+         .menu li{ 
+            display: table-cell; 
+            position: relative; 
+            padding: 15px 0;
+         }
+         .menu a{
+            color: rgb(230, 230, 230);
+            font-size: 117%;
+            text-decoration: none;
+            letter-spacing: 0.15em;
+            display: block;
+            padding: 15px 20px;
+            position: relative;
+         }
+         .menu a:after{    
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: rgb(230, 230, 230);
+            transition: width 0.25s ease 0s, left 0.25s ease 0s;
+            width: 0;
+         }
+         .menu a:hover:after{ 
+            width: 100%;
+            left: 0;
+         }
+         .menu > div{
+            display:none;
+         }
+         .menu > div:target{
+            display:block; 
+         }
+      </style>
+      <body>
+         <div class="menu">
+            <ul>
+               <li><a href="#about">ABOUT</a></li>
+               <li><a href="#listen">LISTEN</a></li>
+               <li><a href="#email">EMAIL</a></li>
+            </ul>
+            <div id="about">
+               <p>Aden Keegan is an Australian composer for games and film. Since discovering his passion for music production and sound design in 2013, Aden has collaborated with talented creators, contributing to a variety of creative projects.</p>
+            </div>
+            <div id="listen">
+               <p>Test Audio</p>
+               <audio controls style="margin: 0 auto; display: block;">
+                  <source src="resources/rain.mp3" type="audio/mpeg">
+               </audio>
+            </div>
+            <div id="email">
+               <p>Tell me about your project! You can contact me by sending an email to enquiries@adenkeegan.com - I will get back to you as soon as possible. Thanks for your interest!</p>
+            </div>
+         </div>
+      </body>
+   </head>
+</html>
